@@ -1,0 +1,35 @@
+{
+  "test_roc_auc": 0.46553446553446554,
+  "test_balanced_acc": 0.4210789210789211,
+  "classification_report": {
+    "0": {
+      "precision": 0.84375,
+      "recall": 0.2967032967032967,
+      "f1-score": 0.43902439024390244,
+      "support": 91.0
+    },
+    "1": {
+      "precision": 0.08571428571428572,
+      "recall": 0.5454545454545454,
+      "f1-score": 0.14814814814814814,
+      "support": 11.0
+    },
+    "accuracy": 0.3235294117647059,
+    "macro avg": {
+      "precision": 0.46473214285714287,
+      "recall": 0.4210789210789211,
+      "f1-score": 0.29358626919602526,
+      "support": 102.0
+    },
+    "weighted avg": {
+      "precision": 0.762001050420168,
+      "recall": 0.3235294117647059,
+      "f1-score": 0.4076553837433799,
+      "support": 102.0
+    }
+  },
+  "python_version": "3.13.5",
+  "sklearn_version": "1.8.0",
+  "pandas_version": "2.3.1",
+  "winner_model_name": "RandomForestClassifier"
+}

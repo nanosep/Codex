@@ -1,0 +1,35 @@
+{
+  "test_roc_auc": 0.7170865664016349,
+  "test_balanced_acc": 0.4998563080754862,
+  "classification_report": {
+    "0": {
+      "precision": 0.8545454545454545,
+      "recall": 0.986013986013986,
+      "f1-score": 0.9155844155844156,
+      "support": 429.0
+    },
+    "1": {
+      "precision": 0.14285714285714285,
+      "recall": 0.0136986301369863,
+      "f1-score": 0.025,
+      "support": 73.0
+    },
+    "accuracy": 0.8446215139442231,
+    "macro avg": {
+      "precision": 0.49870129870129865,
+      "recall": 0.4998563080754862,
+      "f1-score": 0.4702922077922078,
+      "support": 502.0
+    },
+    "weighted avg": {
+      "precision": 0.7510529311326124,
+      "recall": 0.8446215139442231,
+      "f1-score": 0.7860771200910642,
+      "support": 502.0
+    }
+  },
+  "python_version": "3.13.5",
+  "sklearn_version": "1.8.0",
+  "pandas_version": "2.3.1",
+  "winner_model_name": "GaussianNB"
+}

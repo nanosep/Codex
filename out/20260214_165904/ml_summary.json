@@ -1,0 +1,15 @@
+{
+  "trades_count": 48,
+  "total_return": 10.43855753053351,
+  "win_rate": 16.666666666666664,
+  "max_drawdown": 2.9598223051083172,
+  "average_return": 0.2160310179633943,
+  "exposure": 20.73076923076923,
+  "params": {
+    "horizon": 40,
+    "tp": 0.07,
+    "sl": 0.003,
+    "threshold": 0.5,
+    "ambiguity_rule": "If both TP and SL are hit in the same bar, SL is assumed first (conservative)."
+  }
+}

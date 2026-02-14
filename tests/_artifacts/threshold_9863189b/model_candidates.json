@@ -1,0 +1,60 @@
+[
+  {
+    "model_name": "LogisticRegression",
+    "params": {
+      "class_weight": "balanced",
+      "max_iter": 1000,
+      "random_state": 42
+    },
+    "cv_mean_roc_auc": 0.45218582289803216,
+    "cv_std_roc_auc": 0.14442815620233848,
+    "cv_mean_bal_acc": 0.5669281279595917,
+    "cv_std_bal_acc": 0.1448517437460418,
+    "train_positive_rate": 31.372549019607842,
+    "test_positive_rate": 10.784313725490197,
+    "n_train_rows": 408,
+    "n_test_rows": 102
+  },
+  {
+    "model_name": "KNeighborsClassifier",
+    "params": {
+      "n_neighbors": 15
+    },
+    "cv_mean_roc_auc": 0.5897394901610018,
+    "cv_std_roc_auc": 0.05388959781206518,
+    "cv_mean_bal_acc": 0.6191525044722719,
+    "cv_std_bal_acc": 0.19327083484020155,
+    "train_positive_rate": 31.372549019607842,
+    "test_positive_rate": 10.784313725490197,
+    "n_train_rows": 408,
+    "n_test_rows": 102
+  },
+  {
+    "model_name": "RandomForestClassifier",
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 2,
+      "random_state": 42
+    },
+    "cv_mean_roc_auc": 0.6122143336314848,
+    "cv_std_roc_auc": 0.16247769380809596,
+    "cv_mean_bal_acc": 0.6085755813953488,
+    "cv_std_bal_acc": 0.19604514089564667,
+    "train_positive_rate": 31.372549019607842,
+    "test_positive_rate": 10.784313725490197,
+    "n_train_rows": 408,
+    "n_test_rows": 102
+  },
+  {
+    "model_name": "GaussianNB",
+    "params": {},
+    "cv_mean_roc_auc": 0.4168959637745975,
+    "cv_std_roc_auc": 0.19742047821420058,
+    "cv_mean_bal_acc": 0.5770161001788908,
+    "cv_std_bal_acc": 0.22664680895344927,
+    "train_positive_rate": 31.372549019607842,
+    "test_positive_rate": 10.784313725490197,
+    "n_train_rows": 408,
+    "n_test_rows": 102
+  }
+]

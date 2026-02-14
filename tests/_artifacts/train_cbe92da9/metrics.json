@@ -1,0 +1,34 @@
+{
+  "roc_auc": 0.3223140495867769,
+  "balanced_accuracy": 0.3181818181818182,
+  "classification_report": {
+    "0": {
+      "precision": 0.3333333333333333,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.34782608695652173,
+      "support": 11.0
+    },
+    "1": {
+      "precision": 0.3,
+      "recall": 0.2727272727272727,
+      "f1-score": 0.2857142857142857,
+      "support": 11.0
+    },
+    "accuracy": 0.3181818181818182,
+    "macro avg": {
+      "precision": 0.31666666666666665,
+      "recall": 0.3181818181818182,
+      "f1-score": 0.3167701863354037,
+      "support": 22.0
+    },
+    "weighted avg": {
+      "precision": 0.31666666666666665,
+      "recall": 0.3181818181818182,
+      "f1-score": 0.31677018633540377,
+      "support": 22.0
+    }
+  },
+  "python_version": "3.13.5",
+  "sklearn_version": "1.8.0",
+  "pandas_version": "2.3.1"
+}

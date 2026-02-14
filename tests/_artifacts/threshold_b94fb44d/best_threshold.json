@@ -1,0 +1,20 @@
+{
+  "chosen_threshold": 0.05,
+  "selection_stats": {
+    "cv_mean_total_return": 2.7411137696699113,
+    "cv_std_total_return": 3.1173672520458697,
+    "cv_mean_dd": 0.895692395729144,
+    "cv_mean_trades": 8.4,
+    "cv_mean_winrate": 46.88888888888889,
+    "cv_mean_exposure": 27.05882352941176
+  },
+  "params": {
+    "tp": 0.01,
+    "sl": 0.003,
+    "horizon": 40,
+    "n_splits": 5,
+    "test_size": 0.2,
+    "ambiguity_rule": "If both TP and SL are hit in the same bar, SL is assumed first (conservative)."
+  },
+  "primary_metric": "total_return"
+}

@@ -1,0 +1,16 @@
+{
+  "trades_count": 17,
+  "total_return": 9.57363305451453,
+  "win_rate": 64.70588235294117,
+  "max_drawdown": 0.5990999999999747,
+  "average_return": 0.5411764705882371,
+  "exposure": 4.183266932270916,
+  "params": {
+    "horizon": 40,
+    "tp": 0.01,
+    "sl": 0.003,
+    "threshold": 0.05,
+    "ambiguity_rule": "If both TP and SL are hit in the same bar, SL is assumed first (conservative)."
+  },
+  "dataset_split": "test"
+}
