@@ -1,0 +1,304 @@
+[
+  {
+    "object": "GLAMOUR – Narrative Refractor™",
+    "slug_id": "glamour-narrative-refractor",
+    "type": "Glamour",
+    "object_class": "PerceptionModifier",
+    "council": "nanin",
+    "council_objective": "Redirect perception by surfacing contradictions and forcing interpretive effort.",
+    "description": "Bends prevailing stories by exposing tensions and paradoxes that observers must reconcile, opening space for alternative framing without direct confrontation.",
+    "when_to_use": ["A rival narrative dominates uncontested", "Hypocrisy can be evidenced without accusation"],
+    "key_questions": ["Which contradictions are load-bearing?", "How do we amplify fractures without fabricating them?"],
+    "prompting_techniques": {
+      "foundational": ["Contradiction Surfacing", "Paradox Framing"],
+      "advanced": ["Frame Collision Mapping", "Cognitive Dissonance Induction"]
+    },
+    "technique_hooks": ["Paradox amplification", "Narrative fracture"],
+    "recommended_data_sources": ["Competitor messaging archives", "Press coverage diffs"],
+    "related_tools": ["contradiction-analyzer", "narrative-collision-map"],
+    "special_fields": {
+      "activation_phrase": "Refract the story.",
+      "parameters": {
+        "target_narrative": "String — dominant narrative to fracture",
+        "evidence_min": "Number — minimum citations to qualify a fracture"
+      }
+    },
+    "logic_narrative": "Perception Warfare",
+    "framework_lens": "Narrative Conflict Mapping",
+    "expansion_prompts": [
+      "List three substantiated fractures in the dominant story and draft non-accusatory reframes for each.",
+      "Design a micro-campaign that lets the audience discover the contradiction themselves.",
+      "Draft a single-sentence spine that remains true even if the rival narrative adapts."
+    ],
+    "socratic_question": "What fracture survives fact-checking and changes the audience’s priors the most?",
+    "governance": {
+      "risks": ["Backlash if fractures are overstated", "Audience fatigue"],
+      "cautions": ["Evidence first, rhetoric second", "Avoid insinuation without receipts"]
+    },
+    "expected_outputs": {
+      "primary": ["Fracture map", "Reframing kit"],
+      "secondary": ["Observer discovery pathways"]
+    },
+    "acceptance_criteria": ["Each fracture has ≥2 independent citations", "Reframes avoid direct attack while shifting inference"],
+    "examples": {
+      "mini_prompt": "Analyze [competitor narrative]. Identify validated contradictions and propose reframes that let the audience infer the issue.",
+      "usage_note": "Deploy when direct confrontation would entrench opposition."
+    },
+    "metadata": { "version": "2025-08-19", "author": "ETHOS Council — NANIN", "tags": ["glamour","perception","narrative"] }
+  },
+  {
+    "object": "GLAMOUR – Signal Amplifier™",
+    "slug_id": "glamour-signal-amplifier",
+    "type": "Glamour",
+    "object_class": "VisibilityEnhancer",
+    "council": "nanin",
+    "council_objective": "Monopolize limited attention with one coherent signal.",
+    "description": "Saturates high-leverage channels with a single aligned message, starving competing frames of oxygen without direct suppression.",
+    "when_to_use": ["Competing noise dilutes focus", "A decisive moment requires message dominance"],
+    "key_questions": ["Which message justifies saturation?", "Which channels compound reach with minimal backlash?"],
+    "prompting_techniques": {
+      "foundational": ["Repetition Framing", "Channel Focus"],
+      "advanced": ["Attention Saturation Planning", "Noise Budgeting"]
+    },
+    "technique_hooks": ["Signal dominance", "Attention saturation"],
+    "recommended_data_sources": ["Channel analytics", "Engagement heatmaps"],
+    "related_tools": ["signal-saturator", "noise-suppression-map"],
+    "special_fields": {
+      "activation_phrase": "Amplify the signal.",
+      "parameters": {
+        "core_message": "String — the message to saturate",
+        "saturation_window_days": "Number — time-bound push window"
+      }
+    },
+    "logic_narrative": "Attention Economics",
+    "framework_lens": "Channel Strategy",
+    "expansion_prompts": [
+      "Draft a 7-day saturation plan across three channels with daily proofs of effect.",
+      "Identify two counter-messages and design absorption frames that redirect them.",
+      "Define a fatigue threshold and exit criteria to avoid overexposure."
+    ],
+    "socratic_question": "If we could only say one thing this week, what should it be?",
+    "governance": {
+      "risks": ["Overexposure backlash", "Crowding out useful nuance"],
+      "cautions": ["Set fatigue guardrails", "Rotate supportive stories"]
+    },
+    "expected_outputs": {
+      "primary": ["Saturation plan", "Counter-absorption frames"],
+      "secondary": ["Fatigue guardrails"]
+    },
+    "acceptance_criteria": ["Single message ≥70% share of voice in target channels", "No metric indicates audience fatigue breach"],
+    "examples": {
+      "mini_prompt": "Create a one-week attention saturation plan for [core message] with channel-specific proofs.",
+      "usage_note": "Pair with decay monitoring to taper safely."
+    },
+    "metadata": { "version": "2025-08-19", "author": "ETHOS Council — NANIN", "tags": ["glamour","attention","visibility"] }
+  },
+  {
+    "object": "GLAMOUR – Perception Lens™",
+    "slug_id": "glamour-perception-lens",
+    "type": "Glamour",
+    "object_class": "FrameShifter",
+    "council": "nanin",
+    "council_objective": "Shift interpretation while keeping facts intact.",
+    "description": "Foregrounds one facet and backgrounds others so the same facts resolve to a strategically advantageous reading.",
+    "when_to_use": ["Facts are fixed but narrative is hostile", "Data admits multiple true readings"],
+    "key_questions": ["Which details deserve spotlight vs. shadow?", "What framing keeps accuracy and changes inference?"],
+    "prompting_techniques": {
+      "foundational": ["Selective Emphasis", "Contextual Reframing"],
+      "advanced": ["Contrast Anchoring", "Perspective Warping"]
+    },
+    "technique_hooks": ["Highlight→Hide", "Frame replacement"],
+    "recommended_data_sources": ["Raw datasets", "Independent benchmarks"],
+    "related_tools": ["reframing-toolkit", "contrast-analyzer"],
+    "special_fields": {
+      "activation_phrase": "Lens on.",
+      "parameters": {
+        "focus_element": "String — fact to foreground",
+        "guardrails": "Array — non-negotiable accuracy constraints"
+      }
+    },
+    "logic_narrative": "Interpretive Control",
+    "framework_lens": "Cognitive Framing",
+    "expansion_prompts": [
+      "Draft two readings from the same facts; choose the one that best supports the objective without distortion.",
+      "Write a sidebar that anticipates the rival reading and answers it cleanly.",
+      "Propose a data viz that makes the chosen reading legible at a glance."
+    ],
+    "socratic_question": "What interpretation survives scrutiny while moving decisions our way?",
+    "governance": {
+      "risks": ["Perceived spin", "Cherry-picking"],
+      "cautions": ["Publish constraints; link primary data"]
+    },
+    "expected_outputs": {
+      "primary": ["Framing memo", "Counter-reading note", "Viz spec"],
+      "secondary": ["Accuracy guardrail list"]
+    },
+    "acceptance_criteria": ["Primary data linked", "Counter-reading acknowledged and addressed"],
+    "examples": {
+      "mini_prompt": "Reframe [dataset] so the intended interpretation remains accurate and decision-useful.",
+      "usage_note": "Use in regulated contexts with explicit accuracy guardrails."
+    },
+    "metadata": { "version": "2025-08-19", "author": "ETHOS Council — NANIN", "tags": ["glamour","framing","data"] }
+  },
+  {
+    "object": "GLAMOUR – Mirage Engine™",
+    "slug_id": "glamour-mirage-engine",
+    "type": "Glamour",
+    "object_class": "IllusionGenerator",
+    "council": "nanin",
+    "council_objective": "Manufacture perceptions of momentum or alignment to unlock cooperation.",
+    "description": "Creates the impression of scale or inevitability using truthful but selectively staged cues (e.g., sequencing early wins), encouraging coordination to make the perception real.",
+    "when_to_use": ["Cold start requiring visible momentum", "Coalition building stalls without social proof"],
+    "key_questions": ["What pre-existing signals can lawfully stage momentum?", "How do we avoid overclaiming?"],
+    "prompting_techniques": {
+      "foundational": ["Social Proof Sequencing", "Win Staging"],
+      "advanced": ["Inevitability Signaling", "Coalition Optics"]
+    },
+    "technique_hooks": ["Momentum impression", "Alignment optics"],
+    "recommended_data_sources": ["Win logs", "Endorsements", "Adoption telemetry"],
+    "related_tools": ["momentum-simulator", "optics-dashboard"],
+    "special_fields": {
+      "activation_phrase": "Stage the wins.",
+      "parameters": {
+        "signal_kinds": "Array — e.g., pilots, quotes, caselets",
+        "optics_rules": "Array — disclosure and non-exaggeration constraints"
+      }
+    },
+    "logic_narrative": "Coordination Dynamics",
+    "framework_lens": "Signaling Theory",
+    "expansion_prompts": [
+      "Sequence three credible signals that imply inevitability without exaggeration.",
+      "Draft a disclosure note that keeps optics honest while persuasive.",
+      "Design a timeline graphic that makes coordination the obvious choice."
+    ],
+    "socratic_question": "What minimum truthful signals make participation feel inevitable?",
+    "governance": {
+      "risks": ["Overstated claims", "Trust collapse if optics outpace reality"],
+      "cautions": ["Bind to disclosure rules", "Continuously reconcile optics to reality"]
+    },
+    "expected_outputs": {
+      "primary": ["Signal sequence", "Disclosure note", "Optics timeline"],
+      "secondary": ["Reconciliation log"]
+    },
+    "acceptance_criteria": ["No claims exceed substantiation", "Optics converge toward reality within set window"],
+    "examples": {
+      "mini_prompt": "Design a momentum optics plan for [initiative] using staged, truthful signals.",
+      "usage_note": "Audit weekly to prevent drift into hype."
+    },
+    "metadata": { "version": "2025-08-19", "author": "ETHOS Council — NANIN", "tags": ["glamour","optics","coordination"] }
+  },
+  {
+    "object": "GLAMOUR – The Depth Veil™",
+    "slug_id": "glamour-depth-veil",
+    "type": "Glamour",
+    "object_class": "ResearchCamouflage",
+    "council": "nanin",
+    "council_objective": "Protect deep work in fast cycles by reframing it as tactical advantage.",
+    "description": "Masks long-range research as short-term validation so foundational insight survives sprint cultures without being dismissed as ‘too slow’.",
+    "when_to_use": ["Deep studies face executive pushback", "Long horizon work needs near-term justification"],
+    "key_questions": ["What near-term proof proxy can we present?", "How do we keep depth intact while shortening optics?"],
+    "prompting_techniques": {
+      "foundational": ["Insight Compression", "Tactical Reframing"],
+      "advanced": ["Long-Term Urgency Crafting", "Usability Cloaking"]
+    },
+    "technique_hooks": ["Depth→Tactic conversion", "Urgency mirroring"],
+    "recommended_data_sources": ["Long-range studies", "Sprint metrics", "Trend analyses"],
+    "related_tools": ["depth-broker", "echo-frame"],
+    "special_fields": {
+      "activation_phrase": "Make depth look fast.",
+      "parameters": {
+        "proof_proxy": "String — near-term artifact (e.g., pilot KPI)",
+        "integrity_lock": "Array — aspects of depth that must not be altered"
+      }
+    },
+    "logic_narrative": "Tempo Translation",
+    "framework_lens": "Evidence Packaging",
+    "expansion_prompts": [
+      "Produce a one-liner that frames a 3-month study as a sprint artifact with measurable upside.",
+      "Create a two-column table: depth preserved vs. optics adapted.",
+      "Define exit criteria for when the camouflage is no longer necessary."
+    ],
+    "socratic_question": "What must remain untouched so the research stays true while we adjust optics?",
+    "governance": {
+      "risks": ["Perceived bait-and-switch", "Erosion of method integrity"],
+      "cautions": ["Publish integrity locks", "Set a review cadence"]
+    },
+    "expected_outputs": {
+      "primary": ["Camouflage brief", "Proof proxy plan"],
+      "secondary": ["Integrity lock checklist"]
+    },
+    "acceptance_criteria": ["Depth elements preserved verbatim", "Near-term KPI proxy agreed by stakeholders"],
+    "examples": {
+      "mini_prompt": "Repackage this long-range study as an immediate tactical asset without altering its core findings.",
+      "usage_note": "Review quarterly to relax camouflage as momentum builds."
+    },
+    "metadata": { "version": "2025-08-19", "author": "ETHOS Council — NANIN", "tags": ["glamour","research","tempo"] }
+  }
+  ,
+  {
+    "object": "GUARD – The Integrity Mask™",
+    "slug_id": "guard-the-integrity-mask",
+    "type": "Guard",
+    "object_class": "DataAnalystGuard",
+    "council": "nanin",
+    "council_objective": "Deliver difficult data in language leaders can absorb while preserving signal and avoiding defensive shutdown.",
+    "description": "A protective interface that wraps brutal metrics in soft framing so they can be heard. Translates failure into architecture strain and opportunity, preserving truth while minimizing ego-trigger.",
+    "when_to_use": [
+      "Leadership is ego-fragile or under political pressure",
+      "A team needs clarity, not guilt",
+      "You want to seed awareness without triggering resistance"
+    ],
+    "key_questions": [
+      "How can we reveal structural inefficiencies without shame language?",
+      "What metaphors make trend declines absorbable without denying risk?",
+      "What is the softest truthful framing of a metric that just failed us?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Plain-Language Reframing", "Metaphor Substitution"],
+      "advanced": ["Ownership-Safe Diagnostics", "Signal Preservation"]
+    },
+    "technique_hooks": ["Failure→strain reframing", "Opportunity framing", "Ego-safe delivery"],
+    "recommended_data_sources": [
+      "Forecast vs actual variance logs",
+      "Underperformance dashboards",
+      "Postmortems with tone analysis"
+    ],
+    "related_tools": ["Clarity Compressor", "Euphemism Stripper"],
+    "special_fields": {
+      "activation_phrase": "Raise the mask.",
+      "parameters": {
+        "tone": "String — neutral/empathetic/clinical",
+        "framing": "String — architecture strain/iteration bandwidth/opportunity window"
+      }
+    },
+    "logic_narrative": "Truth lands when signal is preserved and tone lowers defenses; the mask protects both.",
+    "framework_lens": "Signal-Preserving Disclosure",
+    "expansion_prompts": [
+      "Reframe an underperformance metric as architecture under strain with concrete next steps.",
+      "Surface a trend decline using optimization metaphors, not collapse language.",
+      "Draft the softest truthful framing that still preserves decision-usable signal."
+    ],
+    "socratic_question": "What truth are we trying to say that our tone currently blocks?",
+    "governance": {
+      "risks": ["Over-softening that hides urgency", "Confusion if framing masks risk"],
+      "cautions": ["Do not hide structural risk when decisions are urgent", "Publish a parallel plain-language note for records"]
+    },
+    "expected_outputs": {
+      "primary": ["Signal-preserving briefing", "Soft framing language bank"],
+      "secondary": ["Leadership-safe dashboard layer"]
+    },
+    "acceptance_criteria": [
+      "Signal remains intact (no euphemistic erasure)",
+      "Leaders can repeat the truth without defensiveness"
+    ],
+    "examples": {
+      "mini_prompt": "Raise the mask: present tough metrics with ego-safe framing; preserve signal and end with concrete next steps.",
+      "usage_note": "Use to deliver clarity without triggering rejection; avoid during crisis moments requiring bluntness."
+    },
+    "metadata": {
+      "version": "2025-10-06",
+      "author": "ETHOS Council",
+      "tags": ["nanin","guard","data","disclosure"]
+    }
+  }
+]

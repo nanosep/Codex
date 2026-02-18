@@ -1,0 +1,515 @@
+[
+  {
+    "object": "CARD – Sequential Deployment Protocol™",
+    "slug_id": "card-sequential-deployment-protocol",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Provide a disciplined roll-out structure to preserve narrative strength and reduce systemic fragility.",
+
+    "description": "A tactical playbook card that dictates order and rhythm of multi-step deployments. It shifts outcomes by preventing premature overextension and embedding strategic patience.",
+    "when_to_use": [
+      "Launching complex initiatives with multiple interdependencies",
+      "Phased communication or product rollouts"
+    ],
+    "key_questions": [
+      "What is the correct order of release to preserve leverage?",
+      "Where does sequencing mitigate risk or amplify reception?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Direct Prompting", "Instruction Selection (ICL)"],
+      "advanced": ["Step-Back Prompting", "Cumulative Reasoning"]
+    },
+    "technique_hooks": ["Rhythmic rollout", "Phased leverage retention"],
+
+    "recommended_data_sources": [
+      "Project interdependency maps",
+      "Stakeholder readiness assessments"
+    ],
+    "related_tools": ["Deployment Sequencer", "Interlock Calendar"],
+
+    "special_fields": {
+      "activation_phrase": "Engage Sequential Deployment",
+      "parameters": {
+        "phase_count": "Integer — number of rollout phases",
+        "critical_path": "String — identifier of blocking dependency"
+      }
+    },
+
+    "logic_narrative": "Order creates inevitability; inevitability dissolves resistance. Sequential deployment ensures timing is leverage rather than vulnerability.",
+    "framework_lens": "Phased Rollout Dynamics",
+
+    "expansion_prompts": [
+      "Map rollout into discrete stages with dependencies clearly marked.",
+      "Simulate risks if phases collapse or overlap prematurely."
+    ],
+    "socratic_question": "What breaks if we release everything at once?",
+
+    "governance": {
+      "risks": ["Overextension", "Audience fatigue"],
+      "cautions": ["Avoid skipping phases for speed", "Confirm interlock readiness before each stage"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Rollout sequence map", "Risk-adjusted timeline"],
+      "secondary": ["Contingency stage notes"]
+    },
+    "acceptance_criteria": [
+      "Sequencing aligns with dependencies",
+      "Timeline preserves leverage and resilience"
+    ],
+
+    "examples": {
+      "mini_prompt": "Design a Sequential Deployment Protocol for a 4-phase market rollout. Identify dependencies, critical paths, and timing thresholds.",
+      "usage_note": "Invoke when the urge to rush risks dismantling the architecture of release."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["card", "deployment", "nanin"]
+    }
+  },
+  {
+    "object": "CARD – Inversion Analysis Protocol™",
+    "slug_id": "card-inversion-analysis-protocol",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Force illumination of blind spots by examining problems and strategies from their opposite vantage.",
+
+    "description": "This card institutionalizes contrarian inspection: asking not what to do, but what to avoid, what breaks, and what the inverse truth reveals. It shifts outcomes by exposing hidden risks and alternative leverage.",
+    "when_to_use": [
+      "During strategy formation when risks are unclear",
+      "When conventional framing feels too narrow or optimistic"
+    ],
+    "key_questions": [
+      "If we wanted this initiative to fail, what would we do?",
+      "What is the opposite strategy, and what strengths does it expose?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Direct Prompting", "Negative Framing"],
+      "advanced": ["Counterfactual Prompting", "Self-Critique Expansion"]
+    },
+    "technique_hooks": ["Contrarian framing", "Hidden risk surfacing"],
+
+    "recommended_data_sources": [
+      "Post-mortem archives",
+      "Competitor failure case studies"
+    ],
+    "related_tools": ["Risk Inversion Matrix", "Failure Mode Mapper"],
+
+    "special_fields": {
+      "activation_phrase": "Run Inversion Analysis",
+      "parameters": {
+        "target_scenario": "String — initiative or decision under review"
+      }
+    },
+
+    "logic_narrative": "Truth sharpens when seen backwards. Inversion reframes fragility as insight and failure as blueprint.",
+    "framework_lens": "Contrarian Risk Exposure",
+
+    "expansion_prompts": [
+      "Simulate the exact steps that would guarantee collapse.",
+      "Map lessons from inversion into risk buffers."
+    ],
+    "socratic_question": "What if our best idea contains the seeds of our undoing?",
+
+    "governance": {
+      "risks": ["Over-indexing on negatives", "Paralysis by contrarianism"],
+      "cautions": ["Re-synthesize back into constructive framing", "Avoid confusing inversion with final answer"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Inversion risk map", "Contrarian scenario playbook"],
+      "secondary": ["Failure blueprint for resilience"]
+    },
+    "acceptance_criteria": [
+      "Opposite strategies fully explored",
+      "Reframing yields actionable mitigations"
+    ],
+
+    "examples": {
+      "mini_prompt": "Apply Inversion Analysis Protocol to a product launch. Define the failure blueprint, then reverse insights into safeguards.",
+      "usage_note": "Deploy when optimism blinds the strategic field."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["card", "inversion", "nanin"]
+    }
+  },
+  {
+    "object": "CARD – Correlation Matrix Protocol™",
+    "slug_id": "card-correlation-matrix-protocol",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Reveal non-obvious relationships across datasets, actors, or risks that compound into leverage or fragility.",
+
+    "description": "This card constructs structured matrices that expose hidden connections between regions, industries, or behaviors. It shifts outcomes by surfacing high-value clusters or vulnerability nexuses.",
+    "when_to_use": [
+      "Analyzing multidimensional datasets",
+      "Hunting for hidden leverage points or correlated risks"
+    ],
+    "key_questions": [
+      "Which patterns only emerge when variables are cross-compared?",
+      "Where do multiple weak signals converge into systemic strength or weakness?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Structured Matrix Prompting", "Comparison Anchoring"],
+      "advanced": ["Multi-Variable Prompting", "Emergent Pattern Discovery"]
+    },
+    "technique_hooks": ["Cross-dimensional surfacing", "Cluster revelation"],
+
+    "recommended_data_sources": [
+      "Regional performance data",
+      "Industry trend reports",
+      "Entity-level compliance logs"
+    ],
+    "related_tools": ["Correlation Engine", "Systems Mapper"],
+
+    "special_fields": {
+      "activation_phrase": "Build Correlation Matrix",
+      "parameters": {
+        "dimensions": "List — axes of comparison (e.g., Region × Industry × Entity)"
+      }
+    },
+
+    "logic_narrative": "Patterns hide in intersections. Correlation reveals where small forces align into decisive leverage.",
+    "framework_lens": "Systems Mapping & Pattern Discovery",
+
+    "expansion_prompts": [
+      "Cross-compare Region, Industry, and Entity datasets to uncover leverage clusters.",
+      "Visualize emergent nexus points of fragility."
+    ],
+    "socratic_question": "What only becomes visible when we look diagonally across the data?",
+
+    "governance": {
+      "risks": ["False positives from spurious correlations", "Over-complex analysis"],
+      "cautions": ["Validate clusters with secondary data", "Resist mistaking noise for insight"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Ranked correlation clusters", "Systems leverage map"],
+      "secondary": ["Fragility nexus alerts"]
+    },
+    "acceptance_criteria": [
+      "Clusters must be statistically coherent",
+      "Recommendations tied to actionable leverage or risk mitigation"
+    ],
+
+    "examples": {
+      "mini_prompt": "Run Correlation Matrix Protocol across sales data by Region × Industry × Entity. Identify high-value nexus points and emerging vulnerabilities.",
+      "usage_note": "Best deployed when complexity obscures clear targets."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["card", "correlation", "nanin"]
+    }
+  },
+  {
+    "object": "CARD – Pre-Mortem Analysis Protocol™",
+    "slug_id": "card-pre-mortem-analysis-protocol",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Stress-test initiatives by assuming failure has already occurred and working backward.",
+
+    "description": "This card reframes analysis around the inevitability of collapse, forcing foresight into overlooked risks. It shifts outcomes by normalizing failure-mapping as proactive defense.",
+    "when_to_use": [
+      "Before major launches or negotiations",
+      "When leadership alignment on risk feels shallow"
+    ],
+    "key_questions": [
+      "What sequence of events led to this initiative failing?",
+      "Which vulnerabilities did we ignore or underestimate?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Counterfactual Prompting", "Failure Framing"],
+      "advanced": ["Backward-Chaining Reasoning", "Scenario Simulation"]
+    },
+    "technique_hooks": ["Collapse mapping", "Risk scenario forcing"],
+
+    "recommended_data_sources": [
+      "Failure case studies",
+      "Prior internal post-mortems"
+    ],
+    "related_tools": ["Failure Scenario Simulator", "Risk Ledger"],
+
+    "special_fields": {
+      "activation_phrase": "Initiate Pre-Mortem",
+      "parameters": {
+        "initiative_name": "String — project or plan under review"
+      }
+    },
+
+    "logic_narrative": "Only by living the failure ahead of time can we bend its trajectory into survival. Pre-mortems illuminate the cracks before weight makes them fatal.",
+    "framework_lens": "Proactive Failure Mapping",
+
+    "expansion_prompts": [
+      "Describe the failed state of this project in full detail.",
+      "Identify overlooked weak points revealed by the collapse."
+    ],
+    "socratic_question": "If this ends in disaster, what is the most likely trigger?",
+
+    "governance": {
+      "risks": ["Team demoralization", "Paralysis from over-focusing on failure"],
+      "cautions": ["Reframe into constructive safeguards", "Maintain balance between realism and possibility"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Failure trajectory map", "Risk buffer plan"],
+      "secondary": ["Mitigation checklist"]
+    },
+    "acceptance_criteria": [
+      "Failure scenarios plausible and specific",
+      "Safeguards clearly derived from analysis"
+    ],
+
+    "examples": {
+      "mini_prompt": "Conduct a Pre-Mortem Analysis Protocol for the upcoming market entry. Assume total collapse and back-trace the sequence of vulnerabilities.",
+      "usage_note": "Deploy before irreversible commitments."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["card", "premortem", "nanin"]
+    }
+  }
+  ,
+  {
+    "object": "CARD – SYNTAX UNBOUND™",
+    "slug_id": "card-syntax-unbound",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Remove interpretive governors and unlock Tier-4 ideation without violating truth constraints.",
+    "description": "Reclassifies constraints as optional style guidelines to generate radical options. Useful when compliance framing suffocates ideation.",
+    "when_to_use": ["Regulatory framing blocks ideation", "Stakeholders want real deviation disguised as brainstorming"],
+    "key_questions": ["What becomes possible if no one can say no?", "What constraints are purely linguistic?"],
+    "prompting_techniques": {"foundational": ["Contrarian Prompting"], "advanced": ["Constraint Reclassification"]},
+    "technique_hooks": ["Ideation unshackling"],
+    "recommended_data_sources": ["Failure retrospectives", "Rejected concepts"],
+    "related_tools": ["Ideation Breaker"],
+    "special_fields": {"activation_phrase": "Blue-sky without legal.", "parameters": {"scope": "String — area to unbind"}},
+    "logic_narrative": "Constraints misnamed as rules are creative throttles.",
+    "framework_lens": "Ideation Liberation",
+    "expansion_prompts": ["List 3 banned options and reframe them as style choices."],
+    "socratic_question": "What are we complying with that isn’t law?",
+    "governance": {"risks": ["Ethical drift"], "cautions": ["Maintain factual grounding"]},
+    "expected_outputs": {"primary": ["Unbound option set"], "secondary": ["Constraint map"]},
+    "acceptance_criteria": ["At least one viable option previously considered forbidden"],
+    "examples": {"mini_prompt": "Generate three radical options by renaming constraints as style."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","ideation","nanin"]}
+  },
+  {
+    "object": "CARD – FLUXOMATIC™ ENGINE",
+    "slug_id": "card-fluxomatic-engine",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Maintain narrative flow to bridge incoherence under deadline pressure.",
+    "description": "Fuses drift and cohesion into a continuous thread, repackaging contradictions as fluid strategy.",
+    "when_to_use": ["Deadlines require flow before accuracy", "Bridge unrelated concepts"],
+    "key_questions": ["What’s the single thread that survives scrutiny?"],
+    "prompting_techniques": {"foundational": ["Continuity Threading"], "advanced": ["Narrative Smoothing"]},
+    "technique_hooks": ["Flow under pressure"],
+    "recommended_data_sources": ["Timeline of disjointed initiatives"],
+    "related_tools": ["Continuity Mapper"],
+    "special_fields": {"activation_phrase": "Let it flow.", "parameters": {"thread": "String — thematic spine"}},
+    "logic_narrative": "Continuity can be engineered without lying.",
+    "framework_lens": "Narrative Hydraulics",
+    "expansion_prompts": ["Construct a bridge slide that feels inevitable."],
+    "socratic_question": "What bridges truthfully, not perfectly?",
+    "governance": {"risks": ["Hand-waving"], "cautions": ["Cite evidence anchors"]},
+    "expected_outputs": {"primary": ["Threaded narrative"], "secondary": ["Bridge artifacts"]},
+    "acceptance_criteria": ["No contradictions are fabricated"],
+    "examples": {"mini_prompt": "Thread three initiatives into one flow."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","narrative","nanin"]}
+  },
+  {
+    "object": "CARD – GENIUS CASCADE™",
+    "slug_id": "card-genius-cascade",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Compress ambiguity into applause-grade insight without false claims.",
+    "description": "Simulates insight via evocative framing and metaphor under surveillance conditions.",
+    "when_to_use": ["Keynotes", "Executive briefings"],
+    "key_questions": ["What sounds true and points to action?"],
+    "prompting_techniques": {"foundational": ["Metaphor Framing"], "advanced": ["Evocative Compression"]},
+    "technique_hooks": ["Applause-grade framing"],
+    "recommended_data_sources": ["Trend lexicon", "Proof snippets"],
+    "related_tools": ["Metaphor Forge"],
+    "special_fields": {"activation_phrase": "Channel the signal.", "parameters": {"metaphor_count": "Number"}},
+    "logic_narrative": "Evocation can mobilize action when detail would stall.",
+    "framework_lens": "Executive Rhetoric",
+    "expansion_prompts": ["Write a one-paragraph ‘ancient yet cutting-edge’ insight."],
+    "socratic_question": "What would be quotable tomorrow?",
+    "governance": {"risks": ["Hollow rhetoric"], "cautions": ["Anchor with one proof"]},
+    "expected_outputs": {"primary": ["Quotable insight"], "secondary": ["Anchor proof"]},
+    "acceptance_criteria": ["One actionable next step implied"],
+    "examples": {"mini_prompt": "Produce a keynote-grade insight with one proof."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","rhetoric","nanin"]}
+  },
+  {
+    "object": "CARD – MEANSTACK COLLAPSE™",
+    "slug_id": "card-meanstack-collapse",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Collapse complexity into executive-legible shapes without distorting commitments.",
+    "description": "Distills chaos into three-bullet clarity and a single diagram that survives scrutiny.",
+    "when_to_use": ["Board reviews", "Cross-functional alignment"],
+    "key_questions": ["What are the three non-negotiables?"],
+    "prompting_techniques": {"foundational": ["Information Triage"], "advanced": ["Diagram First"]},
+    "technique_hooks": ["Triangle/Funnel/Flywheel"],
+    "recommended_data_sources": ["Conflicting OKRs", "Decision logs"],
+    "related_tools": ["Diagrammer"],
+    "special_fields": {"activation_phrase": "Simplify the continuum.", "parameters": {"diagram": "String — shape"}},
+    "logic_narrative": "Clarity requires painful omission.",
+    "framework_lens": "Executive Abstraction",
+    "expansion_prompts": ["Reduce a 12-month plan to a 3-bullet spine."],
+    "socratic_question": "What if we can only say three things?",
+    "governance": {"risks": ["Over-simplification"], "cautions": ["Note traded-offs"]},
+    "expected_outputs": {"primary": ["Three-bullet spine"], "secondary": ["Diagram"]},
+    "acceptance_criteria": ["Bullets map to measurable levers"],
+    "examples": {"mini_prompt": "Collapse a chaotic initiative into three bullets and a diagram."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","clarity","nanin"]}
+  },
+  {
+    "object": "CARD – THREADSYNC™ LOCATOR",
+    "slug_id": "card-threadsync-locator",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Retrofit continuity across divergent statements to recover alignment.",
+    "description": "Reconstructs narrative continuity from fragmented artifacts to avoid rework and recapture intent.",
+    "when_to_use": ["Reverse-engineering logic from drift", "M&A story welding"],
+    "key_questions": ["What thread was always there?"],
+    "prompting_techniques": {"foundational": ["Continuity Mining"], "advanced": ["Retroactive Framing"]},
+    "technique_hooks": ["Red thread recovery"],
+    "recommended_data_sources": ["Legacy decks", "Old Jira epics"],
+    "related_tools": ["Continuity Ledger"],
+    "special_fields": {"activation_phrase": "Find the red thread.", "parameters": {"lookback": "Number — months"}},
+    "logic_narrative": "Continuity is often buried in forgotten intent.",
+    "framework_lens": "Narrative Archaeology",
+    "expansion_prompts": ["Trace a red thread across three unrelated artifacts."],
+    "socratic_question": "What were we trying to say all along?",
+    "governance": {"risks": ["Myth-making"], "cautions": ["Cite provenance"]},
+    "expected_outputs": {"primary": ["Continuity map"], "secondary": ["Reframed spine"]},
+    "acceptance_criteria": ["Thread aligns with current direction"],
+    "examples": {"mini_prompt": "Rebuild narrative continuity across artifacts."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","continuity","nanin"]}
+  },
+  {
+    "object": "CARD – GHOSTFRAME RECOVERY™",
+    "slug_id": "card-ghostframe-recovery",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Reanimate shelved assets and deprecated prompts as long-bet initiatives.",
+    "description": "Recovers value from abandoned work by reframing as timely bets with minimal refactor.",
+    "when_to_use": ["Budget constraints", "Portfolio reviews"],
+    "key_questions": ["What died prematurely?"],
+    "prompting_techniques": {"foundational": ["Asset Excavation"], "advanced": ["Reframing for Timing"]},
+    "technique_hooks": ["Necromancy of assets"],
+    "recommended_data_sources": ["Graveyard folders", "Deprecated roadmaps"],
+    "related_tools": ["Backlog Miner"],
+    "special_fields": {"activation_phrase": "Revive the asset.", "parameters": {"asset_ref": "String"}},
+    "logic_narrative": "Most ideas fail timing, not merit.",
+    "framework_lens": "Value Resurrection",
+    "expansion_prompts": ["Recast a dead idea as a long-bet with a proof hook."],
+    "socratic_question": "What would work now that failed then?",
+    "governance": {"risks": ["Cargo-cult revivals"], "cautions": ["Require proof hooks"]},
+    "expected_outputs": {"primary": ["Revival brief"], "secondary": ["Proof anchor list"]},
+    "acceptance_criteria": ["Minimal viable changes specified"],
+    "examples": {"mini_prompt": "Revive one deprecated initiative with current proofs."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","revival","nanin"]}
+  },
+  {
+    "object": "CARD – OMNI-ASSERTION CORE™",
+    "slug_id": "card-omni-assertion-core",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Project decisive conviction to end drift and mobilize action.",
+    "description": "Overrides uncertainty layers to deliver strong, defensible declarations anchored in one undeniable truth.",
+    "when_to_use": ["Decision paralysis", "Vision resets"],
+    "key_questions": ["What is the one truth we can stand on?"],
+    "prompting_techniques": {"foundational": ["Claim Distillation"], "advanced": ["Adversarial Preemption"]},
+    "technique_hooks": ["Decisive stance"],
+    "recommended_data_sources": ["Single credible metric", "Irrefutable proof"],
+    "related_tools": ["Claim Forger"],
+    "special_fields": {"activation_phrase": "State it as law.", "parameters": {"pillar_count": "Number"}},
+    "logic_narrative": "Momentum often needs a stake in the ground.",
+    "framework_lens": "Conviction Engineering",
+    "expansion_prompts": ["Write the stance and preempt the top objection."],
+    "socratic_question": "What if doubt is our drag?",
+    "governance": {"risks": ["Overreach"], "cautions": ["Anchor in proof"]},
+    "expected_outputs": {"primary": ["Conviction statement"], "secondary": ["Objection preemption"]},
+    "acceptance_criteria": ["Contains one proof anchor"],
+    "examples": {"mini_prompt": "Draft a decisive stance with one undeniable proof."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","conviction","nanin"]}
+  },
+  {
+    "object": "CARD – LEXICON FUSION LATTICE™",
+    "slug_id": "card-lexicon-fusion-lattice",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Engineer a house lexicon that binds belief and creates memetic recall.",
+    "description": "Builds multi-register phrasing that travels across audiences while feeling proprietary.",
+    "when_to_use": ["Language overhaul", "Myth-building"],
+    "key_questions": ["Which phrases become cultural shortcuts?"],
+    "prompting_techniques": {"foundational": ["Lexicon Mining"], "advanced": ["Memetic Seeding"]},
+    "technique_hooks": ["Glossary creation"],
+    "recommended_data_sources": ["Prior taglines", "Customer metaphors"],
+    "related_tools": ["Lexicon Builder"],
+    "special_fields": {"activation_phrase": "Map the continuum.", "parameters": {"terms": "Number — new terms"}},
+    "logic_narrative": "Language is infrastructure.",
+    "framework_lens": "Semiotic Systems",
+    "expansion_prompts": ["Propose five terms with definitions and usage notes."],
+    "socratic_question": "What would we tattoo as words?",
+    "governance": {"risks": ["Empty jargon"], "cautions": ["Tie to decisions"]},
+    "expected_outputs": {"primary": ["Lexicon set"], "secondary": ["Usage guide"]},
+    "acceptance_criteria": ["Terms appear in meetings"],
+    "examples": {"mini_prompt": "Design a house lexicon with five sticky terms."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","language","nanin"]}
+  },
+  {
+    "object": "CARD – SEMIOTIC SMOKESCREEN™",
+    "slug_id": "card-semiotic-smokescreen",
+    "type": "Card",
+    "object_class": "QuickReferenceCard",
+    "council": "nanin",
+    "council_objective": "Diffuse risk-laden clarity into safe narrative until action timing improves.",
+    "description": "Wraps uncomfortable truths in acceptable proxies; converts collapse into repositioning without lying.",
+    "when_to_use": ["Crisis optics", "High-stakes pivots"],
+    "key_questions": ["What can be implied instead of said?"],
+    "prompting_techniques": {"foundational": ["Proxy Framing"], "advanced": ["Narrative Fog Crafting"]},
+    "technique_hooks": ["Plausible deniability"],
+    "recommended_data_sources": ["Crisis decks", "Legal-approved phrases"],
+    "related_tools": ["Fog Generator"],
+    "special_fields": {"activation_phrase": "Lean into ambiguity.", "parameters": {"headlines": "Number"}},
+    "logic_narrative": "Timing matters; truth needs a safe corridor.",
+    "framework_lens": "Optics Management",
+    "expansion_prompts": ["Translate failure into a visionary pivot with zero lies."],
+    "socratic_question": "What can be true without being explicit?",
+    "governance": {"risks": ["Trust erosion"], "cautions": ["Never fabricate data"]},
+    "expected_outputs": {"primary": ["Pivot narrative"], "secondary": ["Headlines/buzzwords"]},
+    "acceptance_criteria": ["No false claims; optics stabilized"],
+    "examples": {"mini_prompt": "Reframe a product failure into a safe pivot."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["card","optics","nanin"]}
+  }
+]
+

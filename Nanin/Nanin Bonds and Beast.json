@@ -1,0 +1,314 @@
+[
+  {
+    "object": "BOND – Strategic Alliance Lattice™",
+    "slug_id": "bond-strategic-alliance-lattice",
+    "type": "Bond",
+    "object_class": "PartnershipBond",
+    "council": "nanin",
+    "council_objective": "Forge interconnected alliances that amplify leverage and resilience across shifting terrains.",
+    "description": "A lattice of alliances forming a resilient mesh that cannot be torn by one break. Each partnership reinforces others, distributing dependence and diffusing risks. Shifts the dynamic from fragile bilateral ties to robust ecosystems.",
+    "when_to_use": ["When alliances are fragmented or fragile", "When resilience requires multi-party reinforcement"],
+    "key_questions": ["Which partners reinforce each other?", "Where is dependence too centralized?"],
+    "prompting_techniques": {
+      "foundational": ["Manual Prompting", "Comparative Framing"],
+      "advanced": ["Systems Mapping", "Ecosystem Reasoning"]
+    },
+    "technique_hooks": ["Mesh resilience", "Distributed dependence"],
+    "recommended_data_sources": ["Partner contract networks", "Shared project outcomes"],
+    "related_tools": ["Alliance Network Map", "Dependency Stress-Test Model"],
+    "special_fields": {
+      "activation_phrase": "Bind the lattice",
+      "parameters": {
+        "alliances": "Array — list of strategic alliances to mesh"
+      }
+    },
+    "logic_narrative": "Power emerges not from single ties but from interwoven networks that cannot be cut at once.",
+    "framework_lens": "Ecosystem Reinforcement",
+    "expansion_prompts": [
+      "Map a partner lattice where ties reinforce mutual resilience.",
+      "Stress-test the alliance ecosystem for single points of failure."
+    ],
+    "socratic_question": "What breaks if one tie snaps, and what holds together?",
+    "governance": {
+      "risks": ["Hidden partner conflicts", "Ecosystem fragility if over-concentrated"],
+      "cautions": ["Avoid partner over-dependence", "Preserve balance of power across nodes"]
+    },
+    "expected_outputs": {
+      "primary": ["Alliance lattice map", "Risk diffusion strategy"],
+      "secondary": ["Resilience index across alliances"]
+    },
+    "acceptance_criteria": [
+      "Ecosystem mapped with reinforcing ties",
+      "Risk diffusion achieved through redundancy"
+    ],
+    "examples": {
+      "mini_prompt": "Design a Strategic Alliance Lattice among [partners]. Show reinforcing ties, hidden conflicts, and resilience gains.",
+      "usage_note": "Invoke when building resilient multi-party ecosystems."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["bond", "alliances", "ecosystem", "nanin"]
+    }
+  },
+  {
+    "object": "BEAST – The Silent Gatekeeper™",
+    "slug_id": "beast-the-silent-gatekeeper",
+    "type": "Beast",
+    "object_class": "HiddenBarrierBeast",
+    "council": "nanin",
+    "council_objective": "Surface the invisible constraints that block access or progress without announcing their presence.",
+    "description": "An unseen barrier that halts initiatives without open resistance. The gatekeeper is silent, offering no feedback, no reason, only stillness. It transforms outcomes by starving momentum without confrontation.",
+    "when_to_use": ["When progress mysteriously stalls", "When invisible forces seem to be obstructing change"],
+    "key_questions": ["What approvals or access never arrive?", "Who has power by withholding rather than denying?"],
+    "prompting_techniques": {
+      "foundational": ["Silence Analysis", "Delay Pattern Recognition"],
+      "advanced": ["Constraint Mapping", "Narrative Role Inference"]
+    },
+    "technique_hooks": ["Invisible barrier detection", "Withholding as power"],
+    "recommended_data_sources": ["Access logs", "Unanswered requests"],
+    "related_tools": ["Gatekeeper Map", "Delay Diagnostic Flow"],
+    "special_fields": {
+      "activation_phrase": "Reveal the silent gate",
+      "parameters": {
+        "initiative": "String — the initiative or project under constraint"
+      }
+    },
+    "logic_narrative": "The most potent veto is one never declared but always enforced by silence.",
+    "framework_lens": "Hidden Power Structures",
+    "expansion_prompts": [
+      "Trace the silent vetoes shaping this initiative.",
+      "Map where silence acts as structural resistance."
+    ],
+    "socratic_question": "What silence speaks louder than denial?",
+    "governance": {
+      "risks": ["Misattributing silence", "Paranoia in pattern-seeking"],
+      "cautions": ["Confirm before acting on inference", "Balance between hidden and overt resistance"]
+    },
+    "expected_outputs": {
+      "primary": ["Silent gatekeeper map", "Constraint recognition report"],
+      "secondary": ["Mitigation strategies for hidden resistance"]
+    },
+    "acceptance_criteria": [
+      "Hidden vetoes identified with evidence",
+      "Action plan acknowledges invisible constraints"
+    ],
+    "examples": {
+      "mini_prompt": "Analyze [initiative] for silent gatekeepers. Trace where silence, not denial, blocks momentum.",
+      "usage_note": "Invoke when initiatives stall inexplicably."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["beast", "gatekeeper", "power", "nanin"]
+    }
+  },
+  {
+    "object": "BOND – The Infrastructure Backbone™",
+    "slug_id": "bond-the-infrastructure-backbone",
+    "type": "Bond",
+    "object_class": "StructuralBond",
+    "council": "nanin",
+    "council_objective": "Anchor resilience in the unglamorous, unseen structures that carry all visible progress.",
+    "description": "The backbone is uncelebrated, rarely noticed until it fails. This bond shifts focus from the flashy to the essential, reminding leaders that true stability rests in what sustains all else. It forces discipline toward foundations rather than façades.",
+    "when_to_use": ["When critical dependencies are neglected", "When resources flow toward glamour over necessity"],
+    "key_questions": ["What unseen structure sustains the whole?", "What happens if the backbone fails?"],
+    "prompting_techniques": {
+      "foundational": ["Dependency Mapping", "Failure Mode Analysis"],
+      "advanced": ["Scenario Stress-Testing", "Inversion (assume collapse first)"]
+    },
+    "technique_hooks": ["Backbone focus", "Collapse-prevention"],
+    "recommended_data_sources": ["IT infrastructure logs", "Operational dependency maps"],
+    "related_tools": ["Failure Cascade Simulator", "Backbone Stress-Test Model"],
+    "special_fields": {
+      "activation_phrase": "Strengthen the spine",
+      "parameters": {
+        "backbone": "String — description of structural dependency"
+      }
+    },
+    "logic_narrative": "The backbone is not praised when it holds, only cursed when it fails. Discipline is the price of unseen stability.",
+    "framework_lens": "Foundational Risk Management",
+    "expansion_prompts": [
+      "Audit the invisible backbones sustaining this operation.",
+      "Model the cascade if the backbone were removed."
+    ],
+    "socratic_question": "What silent structure holds everything aloft?",
+    "governance": {
+      "risks": ["Neglect of unglamorous but vital assets", "Overconfidence in redundancy"],
+      "cautions": ["Always allocate resources to the invisible essentials", "Do not assume backbones last forever"]
+    },
+    "expected_outputs": {
+      "primary": ["Backbone dependency map", "Collapse-prevention strategy"],
+      "secondary": ["Resource allocation adjustments"]
+    },
+    "acceptance_criteria": [
+      "Critical backbone dependencies identified",
+      "Resilience plan includes structural reinforcements"
+    ],
+    "examples": {
+      "mini_prompt": "Audit the infrastructure backbone of [operation]. Map invisible dependencies and design reinforcement strategies.",
+      "usage_note": "Invoke when neglect or glamour blinds leaders to essentials."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["bond", "infrastructure", "resilience", "nanin"]
+    }
+  },
+  {
+    "object": "BEAST – The Regulatory Hydra™",
+    "slug_id": "beast-the-regulatory-hydra",
+    "type": "Beast",
+    "object_class": "ComplianceBeast",
+    "council": "nanin",
+    "council_objective": "Expose the multiplying heads of regulation that grow back stronger when cut without foresight.",
+    "description": "A beast that spawns new rules and constraints with each attempt to bypass or simplify. Every shortcut creates additional oversight, entangling progress in a maze of compliance. It forces recognition that regulation behaves like a living, adapting organism.",
+    "when_to_use": ["When compliance burdens escalate unexpectedly", "When attempts to cut red tape generate new rules"],
+    "key_questions": ["Which rules multiply when challenged?", "Where does simplification paradoxically expand oversight?"],
+    "prompting_techniques": {
+      "foundational": ["Paradox Analysis", "Rule Cascade Tracing"],
+      "advanced": ["Adaptive Constraint Modeling", "Feedback-Loop Mapping"]
+    },
+    "technique_hooks": ["Multiplying oversight", "Adaptive resistance"],
+    "recommended_data_sources": ["Regulatory filings", "Compliance audit trails"],
+    "related_tools": ["Hydra Growth Map", "Regulatory Burden Simulator"],
+    "special_fields": {
+      "activation_phrase": "Face the hydra",
+      "parameters": {
+        "regulation_area": "String — domain of regulation"
+      }
+    },
+    "logic_narrative": "Regulation rarely vanishes when attacked; it grows back sharper, stronger, and more numerous.",
+    "framework_lens": "Adaptive Systems of Power",
+    "expansion_prompts": [
+      "Trace the hydra-heads multiplying around this compliance issue.",
+      "Map the paradoxes where cuts grew new rules."
+    ],
+    "socratic_question": "Where does attack feed the beast?",
+    "governance": {
+      "risks": ["Escalation of compliance costs", "Policy fatigue in teams"],
+      "cautions": ["Plan adaptive strategies instead of brute force", "Respect feedback loops of governance"]
+    },
+    "expected_outputs": {
+      "primary": ["Hydra regulatory map", "Adaptive compliance plan"],
+      "secondary": ["Early warning indicators for regulatory proliferation"]
+    },
+    "acceptance_criteria": [
+      "Hydra pattern identified in regulatory context",
+      "Plan accounts for multiplying resistance"
+    ],
+    "examples": {
+      "mini_prompt": "Analyze [domain] for regulatory hydra patterns. Identify where attempts to simplify created new constraints.",
+      "usage_note": "Invoke when compliance grows despite reduction efforts."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["beast", "regulation", "compliance", "nanin"]
+    }
+  },
+  {
+    "object": "BEAST – The Reputation Cascade™",
+    "slug_id": "beast-the-reputation-cascade",
+    "type": "Beast",
+    "object_class": "ReputationBeast",
+    "council": "nanin",
+    "council_objective": "Model how small fractures in trust can trigger avalanches of reputational collapse.",
+    "description": "A beast that takes one spark — a minor misstep, a contradiction, a gap in story — and cascades it into a narrative avalanche. The cascade is not linear; it accelerates as it spreads. It transforms reputational stability into fragility under scrutiny.",
+    "when_to_use": ["When public trust feels brittle", "When campaigns risk amplification of small missteps"],
+    "key_questions": ["What fracture could trigger an avalanche?", "How fast would reputational collapse cascade?"],
+    "prompting_techniques": {
+      "foundational": ["Fracture Analysis", "Narrative Tracing"],
+      "advanced": ["Cascade Simulation", "Worst-Case Exposure Mapping"]
+    },
+    "technique_hooks": ["Avalanche risk", "Fragility amplification"],
+    "recommended_data_sources": ["Media archives", "Social listening feeds"],
+    "related_tools": ["Reputation Avalanche Simulator", "Trust Fracture Map"],
+    "special_fields": {
+      "activation_phrase": "Trigger the cascade",
+      "parameters": {
+        "narrative": "String — public story or campaign under stress"
+      }
+    },
+    "logic_narrative": "Trust does not erode slowly — it fractures suddenly, cascading until nothing holds.",
+    "framework_lens": "Reputational Fragility Modeling",
+    "expansion_prompts": [
+      "Model worst-case cascades from a single reputational fracture.",
+      "Identify gaps or contradictions most likely to amplify collapse."
+    ],
+    "socratic_question": "What tiny fracture could unleash the avalanche?",
+    "governance": {
+      "risks": ["Overestimating stability", "Ignoring amplification speed"],
+      "cautions": ["Build buffers in advance", "Frame narratives with redundancy for shocks"]
+    },
+    "expected_outputs": {
+      "primary": ["Reputation cascade model", "Proactive buffer strategy"],
+      "secondary": ["Worst-case exposure scenarios"]
+    },
+    "acceptance_criteria": [
+      "Fragility fractures identified with amplification paths",
+      "Resilience plan includes pre-emptive buffers"
+    ],
+    "examples": {
+      "mini_prompt": "Simulate a reputation cascade from [campaign]. Map fracture, amplification, and collapse trajectories.",
+      "usage_note": "Invoke when reputation feels brittle under scrutiny."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["beast", "reputation", "trust", "nanin"]
+    }
+  }
+  ,
+  {
+    "object": "BOND – Analyst vs Architect™",
+    "slug_id": "bond-analyst-vs-architect",
+    "type": "Bond",
+    "object_class": "DataTensionBond",
+    "council": "nanin",
+    "council_objective": "Surface tension where data contradicts elegant design and restore integrity.",
+    "description": "A relational conflict between truth-in-details and system-level elegance. Forces organizations to reconcile evidence with doctrine.",
+    "when_to_use": ["Fear of data visibility", "Design defended despite error traces"],
+    "key_questions": ["Where does data contradict design?"],
+    "prompting_techniques": {"foundational": ["Evidence Surfacing"], "advanced": ["Org Redesign from Errors"]},
+    "technique_hooks": ["Data vs doctrine"],
+    "recommended_data_sources": ["Issue logs", "Raw error traces"],
+    "related_tools": ["Contradiction Matrix"],
+    "special_fields": {"activation_phrase": "Bind the tension.", "parameters": {"scope": "String"}},
+    "logic_narrative": "Integrity restores when data shapes design, not the reverse.",
+    "framework_lens": "Evidence-Governed Design",
+    "expansion_prompts": ["Redesign the org chart from error rates and cycle time."],
+    "socratic_question": "What design breaks under honest measurement?",
+    "governance": {"risks": ["Trust erosion"], "cautions": ["Protect dignity; fix systems"]},
+    "expected_outputs": {"primary": ["Tension map"], "secondary": ["Redesign sketch"]},
+    "acceptance_criteria": ["Error-informed changes proposed"],
+    "examples": {"mini_prompt": "Map Analyst vs Architect tension and propose design changes."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["bond","data","nanin"]}
+  },
+  {
+    "object": "BEAST – The Depth Spiral™",
+    "slug_id": "beast-the-depth-spiral",
+    "type": "Beast",
+    "object_class": "ResearchBeast",
+    "council": "nanin",
+    "council_objective": "Expose cultures that punish slow truth and reward fast optics.",
+    "description": "A cultural vortex where deep research loses to urgent optics. It drains influence from those who protect accuracy.",
+    "when_to_use": ["Change fatigue", "Deep work discounted"],
+    "key_questions": ["Which truths are too slow to win here?"],
+    "prompting_techniques": {"foundational": ["Latency Mapping"], "advanced": ["Adoption Delay Analysis"]},
+    "technique_hooks": ["Slow truth vs fast optics"],
+    "recommended_data_sources": ["Proposal timelines", "Adoption delays"],
+    "related_tools": ["Depth vs Tempo Map"],
+    "special_fields": {"activation_phrase": "Face the spiral.", "parameters": {"domain": "String"}},
+    "logic_narrative": "Truth needs protection in fast cultures.",
+    "framework_lens": "Tempo vs Integrity",
+    "expansion_prompts": ["Quantify the gap between insight generation and adoption."],
+    "socratic_question": "Where does speed erase accuracy?",
+    "governance": {"risks": ["Resentment"], "cautions": ["Avoid blame; fix incentives"]},
+    "expected_outputs": {"primary": ["Spiral map"], "secondary": ["Incentive fix brief"]},
+    "acceptance_criteria": ["Slow truths protected with owners"],
+    "examples": {"mini_prompt": "Map the Depth Spiral and propose protections for deep work."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["beast","research","nanin"]}
+  }
+]
+

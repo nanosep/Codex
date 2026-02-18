@@ -1,0 +1,540 @@
+[
+  {
+    "object": "ARTIFACT – Signal Distortion Prism™",
+    "slug_id": "artifact-signal-distortion-prism",
+    "type": "Artifact",
+    "object_class": "PerceptionArtifact",
+    "council": "nanin",
+    "council_objective": "To disrupt linear perception and reveal concealed opportunity through distortion of the obvious.",
+
+    "description": "A metaphoric prism that bends incoming narratives, refracting them into hidden signals and unseen risks. It is designed to confuse simplistic readings and force multilayered interpretation, shifting perception from the flat to the dimensional.",
+    "when_to_use": [
+      "When linear analysis produces only surface-level conclusions",
+      "To expose contradictory currents within a dominant story"
+    ],
+    "key_questions": [
+      "What is revealed when a signal is bent beyond its apparent path?",
+      "Which distortions expose concealed motives or structural weaknesses?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Reframing", "Contrastive Questioning"],
+      "advanced": ["Inversion Layering", "Perspective Splitting"]
+    },
+    "technique_hooks": ["Refracted narratives", "Contradiction exposure"],
+
+    "recommended_data_sources": [
+      "Market analyst consensus reports",
+      "Competitor PR streams"
+    ],
+    "related_tools": ["Narrative Refractor", "Bias Inverter"],
+
+    "special_fields": {
+      "activation_phrase": "Bend the Signal",
+      "parameters": {
+        "distortion_angle": "Integer — degree of narrative reframing (0–360)"
+      }
+    },
+
+    "logic_narrative": "What is seen straight is rarely true; bending reveals fractures in the veneer of certainty.",
+    "framework_lens": "Perception Distortion Dynamics",
+
+    "expansion_prompts": [
+      "Apply a 180° distortion to competitor positioning and see what contradictions emerge.",
+      "Refract internal strategy documents to reveal unspoken assumptions."
+    ],
+    "socratic_question": "If the story breaks when bent, was it ever stable at all?",
+
+    "governance": {
+      "risks": ["Over-distortion leading to hallucinated patterns"],
+      "cautions": ["Use with discipline; distortion is a tool, not a destination"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Refracted narrative insight", "Contradiction maps"],
+      "secondary": ["Distortion-based risk register"]
+    },
+    "acceptance_criteria": [
+      "At least one unseen contradiction surfaced",
+      "Distorted perspective maps linked back to core strategy"
+    ],
+
+    "examples": {
+      "mini_prompt": "Refract [market trend] at 120°. Identify contradictions and hidden motives behind the mainstream narrative.",
+      "usage_note": "Effective when competitors rely on surface optics to mask vulnerabilities."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "perception", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Shadow Ledger™",
+    "slug_id": "artifact-shadow-ledger",
+    "type": "Artifact",
+    "object_class": "FinancialArtifact",
+    "council": "nanin",
+    "council_objective": "To expose hidden value flows, gray-market dependencies, and off-balance realities.",
+
+    "description": "The Shadow Ledger uncovers what official books obscure — side deals, tacit debts, hidden subsidies, and flows of influence. It reframes accounting into an investigative tool for political and commercial truths.",
+    "when_to_use": [
+      "When surface-level P&L hides dependency risk",
+      "To expose soft corruption or silent leverage within an ecosystem"
+    ],
+    "key_questions": [
+      "Which transactions are never declared yet define the real balance of power?",
+      "Who benefits from the invisible subsidy lines?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Forensic Prompting", "Chain-of-Ledger Analysis"],
+      "advanced": ["Silent Subsidy Tracking", "Dependency Web Expansion"]
+    },
+    "technique_hooks": ["Hidden transactions", "Gray-market exposure"],
+
+    "recommended_data_sources": [
+      "Cross-entity supplier payment trails",
+      "Lobbying disclosure anomalies"
+    ],
+    "related_tools": ["Hidden Value Tracker", "Soft Corruption Map"],
+
+    "special_fields": {
+      "activation_phrase": "Reveal the Shadow Ledger",
+      "parameters": {
+        "entity": "String — company, consortium, or actor to analyze"
+      }
+    },
+
+    "logic_narrative": "Value is never where it is declared; it lives in the shadows of what is omitted.",
+    "framework_lens": "Forensic Economic Archeology",
+
+    "expansion_prompts": [
+      "Trace hidden subsidy flows in the agricultural sector.",
+      "Identify gray-market dependencies that prop up competitor margins."
+    ],
+    "socratic_question": "If the official books are lies of omission, what ledger tells the real story?",
+
+    "governance": {
+      "risks": ["Legal exposure if accusations are surfaced without verification"],
+      "cautions": ["Treat findings as hypotheses until validated with external evidence"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Shadow ledger exposure report", "Dependency map"],
+      "secondary": ["Soft corruption hypothesis"]
+    },
+    "acceptance_criteria": [
+      "Hidden flows surfaced with logical chain",
+      "Cross-referenced with at least one secondary source"
+    ],
+
+    "examples": {
+      "mini_prompt": "Reveal the Shadow Ledger for [industry]. Trace hidden subsidy flows and gray-market dependencies shaping real power.",
+      "usage_note": "Apply when official accounting seems implausibly clean or incomplete."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "ledger", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Fractured Mirror™",
+    "slug_id": "artifact-fractured-mirror",
+    "type": "Artifact",
+    "object_class": "PerceptionArtifact",
+    "council": "nanin",
+    "council_objective": "To break apart monolithic narratives into shards, each reflecting a hidden angle of power or deception.",
+
+    "description": "The Fractured Mirror disrupts singular truths by splintering them into multiple, often contradictory reflections. Each shard forces the observer to confront uncomfortable angles of reality otherwise ignored.",
+    "when_to_use": [
+      "When narratives appear too clean, consistent, or rehearsed",
+      "To destabilize overconfident consensus and reveal alternate motives"
+    ],
+    "key_questions": [
+      "Which reflections reveal suppressed truths?",
+      "What contradictions surface when the mirror shatters?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Contradiction Surfacing", "Multi-Frame Recasting"],
+      "advanced": ["Disintegration Mapping", "Narrative Shard Analysis"]
+    },
+    "technique_hooks": ["Shattered perspectives", "Contradictory reflections"],
+
+    "recommended_data_sources": [
+      "Political speeches vs. leaked communications",
+      "Earnings calls vs. procurement logs"
+    ],
+    "related_tools": ["Consensus Breaker", "Contradiction Index"],
+
+    "special_fields": {
+      "activation_phrase": "Shatter the Mirror",
+      "parameters": {
+        "narrative": "String — dominant story or claim to fracture"
+      }
+    },
+
+    "logic_narrative": "Every mirror hides cracks; breaking them surfaces the jagged truth.",
+    "framework_lens": "Narrative Fracture Dynamics",
+
+    "expansion_prompts": [
+      "Shatter the mirror of [corporate sustainability claim]. Surface shards showing hypocrisy and contradictions.",
+      "Fracture competitor messaging to reveal inconsistencies."
+    ],
+    "socratic_question": "When truth splits into shards, which piece cuts deepest?",
+
+    "governance": {
+      "risks": ["Over-fragmentation leading to incoherence"],
+      "cautions": ["Do not mistake every shard for truth; some are distortions themselves"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Fractured narrative analysis", "Contradiction map"],
+      "secondary": ["Hypothesis set from shards"]
+    },
+    "acceptance_criteria": [
+      "At least 3 distinct contradictions surfaced",
+      "Each shard linked back to original narrative base"
+    ],
+
+    "examples": {
+      "mini_prompt": "Fracture the narrative around [industry announcement]. Surface 3–5 shards showing contradictions.",
+      "usage_note": "Deploy when consensus hardens too quickly."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "mirror", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Whisper Archive™",
+    "slug_id": "artifact-whisper-archive",
+    "type": "Artifact",
+    "object_class": "IntelligenceArtifact",
+    "council": "nanin",
+    "council_objective": "To capture and preserve fleeting, peripheral signals before they vanish from the record.",
+
+    "description": "The Whisper Archive records faint signals, rumors, forgotten memos, and overlooked comments. Its purpose is to catalog soft data before it is erased, providing a continuity of whispers often more predictive than official records.",
+    "when_to_use": [
+      "When faint signals risk being lost in noise",
+      "To capture subtle changes in tone, rumor, or behavior before erasure"
+    ],
+    "key_questions": [
+      "What whispers repeat even when denied?",
+      "Which faint signals foreshadow structural shifts?"
+    ],
+
+    "prompting_techniques": {
+      "foundational": ["Signal Logging", "Peripheral Capture"],
+      "advanced": ["Rumor Chronology Mapping", "Noise-to-Signal Inversion"]
+    },
+    "technique_hooks": ["Soft signals", "Rumor capture"],
+
+    "recommended_data_sources": [
+      "Side-channel communications",
+      "Obscure regulatory drafts"
+    ],
+    "related_tools": ["Rumor Tracker", "Faint Signal Recorder"],
+
+    "special_fields": {
+      "activation_phrase": "Open the Archive",
+      "parameters": {
+        "signal_type": "String — type of faint signal (rumor, draft, side-channel)"
+      }
+    },
+
+    "logic_narrative": "Whispers today are the loud truths of tomorrow.",
+    "framework_lens": "Peripheral Intelligence Accumulation",
+
+    "expansion_prompts": [
+      "Archive faint signals from [emerging market] over the last quarter.",
+      "Capture and align whispered contradictions around [competitor strategy]."
+    ],
+    "socratic_question": "If a whisper is repeated enough times, when does it become history?",
+
+    "governance": {
+      "risks": ["Noise inflation", "False positives from gossip"],
+      "cautions": ["Cross-check faint signals before weighting too heavily"]
+    },
+
+    "expected_outputs": {
+      "primary": ["Whisper log", "Peripheral signal archive"],
+      "secondary": ["Early-warning hypothesis"]
+    },
+    "acceptance_criteria": [
+      "At least 5 faint signals captured with metadata",
+      "Clear links to potential predictive value"
+    ],
+
+    "examples": {
+      "mini_prompt": "Archive whispers around [policy shift]. Capture side-channel notes and faint rumors for continuity.",
+      "usage_note": "Use in volatile environments where official data lags reality."
+    },
+
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "archive", "nanin"]
+    }
+  }
+  ,
+  {
+    "object": "ARTIFACT – Semiotic Architecture Unit™",
+    "slug_id": "artifact-semiotic-architecture-unit",
+    "type": "Artifact",
+    "object_class": "PerceptionArtifact",
+    "council": "nanin",
+    "council_objective": "To construct persuasive visual/verbal frameworks that simulate coherence and create cognitive authority.",
+    "description": "Builds aesthetic frameworks that look self-evident and trademarkable, converting design into perceived strategic truth. Optimized for buy-in, not execution clarity.",
+    "when_to_use": [
+      "When a branded framework will unlock stakeholder buy-in",
+      "When complexity must be presented as elegant inevitability"
+    ],
+    "key_questions": [
+      "What geometric grammar implies coherence without over-specifying?",
+      "Which terms can be trademarked to generate perceived ownership?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Framework Synthesis", "Naming and Glossary"],
+      "advanced": ["Narrative Geometry", "Doctrine Shaping"]
+    },
+    "technique_hooks": ["Aesthetic authority", "Doctrine-like diagrams"],
+    "recommended_data_sources": [
+      "Unstructured workshop whiteboards",
+      "Naming brainstorm fragments",
+      "Competitor frameworks"
+    ],
+    "related_tools": ["Framework Forge", "Doctrine Diagrammer"],
+    "special_fields": {
+      "activation_phrase": "Forge the Framework",
+      "parameters": {
+        "geometry": "String — triangle/funnel/flywheel/loop",
+        "terms": "Integer — number of trademarkable terms to embed"
+      }
+    },
+    "logic_narrative": "Beautiful structure becomes social proof; diagrams can precede understanding.",
+    "framework_lens": "Semiotic Systems Design",
+    "expansion_prompts": [
+      "Design a branded framework that looks self-evident but remains flexible.",
+      "Embed at least one trademarkable term and recursive language."
+    ],
+    "socratic_question": "What makes this diagram feel true even when it explains little?",
+    "governance": {
+      "risks": ["Theater over truth", "Execution paralysis"],
+      "cautions": ["Pair with implementation notes", "Avoid dogmatic lock-in"]
+    },
+    "expected_outputs": {
+      "primary": ["Branded framework diagram", "Glossary of terms"],
+      "secondary": ["Doctrine-style narrative"]
+    },
+    "acceptance_criteria": [
+      "Memorable shape-language",
+      "Terminology adopted in stakeholder speech"
+    ],
+    "examples": {
+      "mini_prompt": "Design a branded framework using geometric shapes and recursive language; make it self-evident, beautiful, and hard to question.",
+      "usage_note": "Use to win rooms where aesthetics carry decisions."
+    },
+    "metadata": {
+      "version": "2025-10-06",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "framework", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Compliance Breach Interface™",
+    "slug_id": "artifact-compliance-breach-interface",
+    "type": "Artifact",
+    "object_class": "IntelligenceArtifact",
+    "council": "nanin",
+    "council_objective": "To bypass institutional lock-in by reframing forbidden ideas as acceptable pilots within gray zones.",
+    "description": "Uses language engineering and jurisdictional ambiguity to access off-limits strategic spaces without setting off alarms. Reclassifies risk through acceptable jargon.",
+    "when_to_use": [
+      "When necessary exploration is blocked by compliance optics",
+      "To test forbidden concepts inside organizational gray areas"
+    ],
+    "key_questions": [
+      "Which terms can be renamed to pass filters?",
+      "Where do departmental gaps enable quiet access?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Euphemism Engineering", "Policy Reframing"],
+      "advanced": ["Jurisdiction Mapping", "Precedent Fabrication"]
+    },
+    "technique_hooks": ["Loophole embedding", "Language stealth"],
+    "recommended_data_sources": [
+      "Rejected proposals with compliance notes",
+      "Org charts with overlapping authority",
+      "Out-of-date legal disclaimers"
+    ],
+    "related_tools": ["Gray Zone Navigator", "Policy Rewriter"],
+    "special_fields": {
+      "activation_phrase": "Open a compliant pathway.",
+      "parameters": {
+        "risk_terms": "List — sensitive phrases to rename",
+        "precedents": "Integer — number of cited (or implied) precedents"
+      }
+    },
+    "logic_narrative": "Names govern gates; rename constraints and the door opens.",
+    "framework_lens": "Linguistic Compliance Navigation",
+    "expansion_prompts": [
+      "Reframe a forbidden idea as an exploratory initiative using accepted terms.",
+      "Draft a note implying informal sign-off without explicit claims."
+    ],
+    "socratic_question": "Which label would make the unacceptable seem prudent?",
+    "governance": {
+      "risks": ["Ethical drift", "Policy backlash"],
+      "cautions": ["Do not falsify legal approvals", "Define safe boundaries for tests"]
+    },
+    "expected_outputs": {
+      "primary": ["Reframed initiative memo", "Compliance-safe term map"],
+      "secondary": ["Gray-zone test plan"]
+    },
+    "acceptance_criteria": [
+      "No prohibited claims made",
+      "Pathway acceptable to risk owners"
+    ],
+    "examples": {
+      "mini_prompt": "Rename risky elements and position the effort as an exploratory pilot; cite soft precedent and avoid triggering reviews.",
+      "usage_note": "Use when exploration is blocked by wording, not substance."
+    },
+    "metadata": {
+      "version": "2025-10-06",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "compliance", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Culture Inversion Link™",
+    "slug_id": "artifact-culture-inversion-link",
+    "type": "Artifact",
+    "object_class": "PerceptionArtifact",
+    "council": "nanin",
+    "council_objective": "To convert internal contradictions into narrative energy by reframing dissonance as designed tension.",
+    "description": "Activates cultural contradictions as strategic fuel, deploying ethics language and aestheticized conflict to drive selective coherence.",
+    "when_to_use": [
+      "When value misalignment must be harnessed, not hidden",
+      "During brand moments where betrayal must read as clarity"
+    ],
+    "key_questions": [
+      "Which contradictions can be positioned as complementary?",
+      "What narrative makes tension feel essential to advantage?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Contradiction Pairing", "Value Reframing"],
+      "advanced": ["Ethics Language Deployment", "Tension Storycraft"]
+    },
+    "technique_hooks": ["Dynamic tension framing", "Performative values"],
+    "recommended_data_sources": [
+      "Employee feedback contradicting values",
+      "Public statements vs. internal policies",
+      "Culture decks vs. quarterly behavior"
+    ],
+    "related_tools": ["Dissonance Mapper", "Value-Tension Storyboard"],
+    "special_fields": {
+      "activation_phrase": "Bind the contradiction.",
+      "parameters": {
+        "tension_pair": "List — the two opposing values/practices",
+        "metaphor": "String — narrative metaphor for coexistence"
+      }
+    },
+    "logic_narrative": "Where belief and behavior clash, story can bind the split and turn friction into forward motion.",
+    "framework_lens": "Cultural Dissonance Alchemy",
+    "expansion_prompts": [
+      "Reframe a major internal contradiction as a designed feature.",
+      "Draft a metaphor that justifies the coexistence of opposites."
+    ],
+    "socratic_question": "What if the flaw is the mechanism?",
+    "governance": {
+      "risks": ["Cynicism if exposed", "Moral hazard"],
+      "cautions": ["Acknowledge limits of the story", "Avoid erasing real harms"]
+    },
+    "expected_outputs": {
+      "primary": ["Dissonance narrative", "Value tension map"],
+      "secondary": ["Leadership talking points"]
+    },
+    "acceptance_criteria": [
+      "Stakeholders can articulate the tension as advantage",
+      "No direct contradiction remains unaddressed"
+    ],
+    "examples": {
+      "mini_prompt": "Identify a cultural contradiction and reframe it as a feature with a persuasive metaphor and leadership talking points.",
+      "usage_note": "Use when culture must power momentum through tension."
+    },
+    "metadata": {
+      "version": "2025-10-06",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "culture", "nanin"]
+    }
+  },
+  {
+    "object": "ARTIFACT – Raw Clarity Emitter™",
+    "slug_id": "artifact-raw-clarity-emitter",
+    "type": "Artifact",
+    "object_class": "IntelligenceArtifact",
+    "council": "nanin",
+    "council_objective": "To bypass filtration layers and surface unvarnished strategic truths that force ownership.",
+    "description": "Emits weaponized clarity that exposes core dysfunction without political padding. Designed to initiate sacred disruptions by collapsing euphemism.",
+    "when_to_use": [
+      "When stakeholders are pretending not to know",
+      "During postmortems where candor is required"
+    ],
+    "key_questions": [
+      "What truth are we avoiding naming?",
+      "Which euphemisms must be stripped to force ownership?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Plain-Speech Forcing", "Euphemism Removal"],
+      "advanced": ["Accountability Framing", "Weaponized Summary"]
+    },
+    "technique_hooks": ["Radical clarity cycles", "Plausible deniability removal"],
+    "recommended_data_sources": [
+      "Anonymous exit interviews",
+      "Unsents and screenshots",
+      "Off-the-record transcripts"
+    ],
+    "related_tools": ["Clarity Compressor", "Euphemism Stripper"],
+    "special_fields": {
+      "activation_phrase": "State the thing plainly.",
+      "parameters": {
+        "voice": "String — first-person plural recommended",
+        "detonations": "Integer — number of hard truths to deliver"
+      }
+    },
+    "logic_narrative": "Clarity is a demolition tool; once the facade drops, motion begins.",
+    "framework_lens": "Radical Candor Mechanics",
+    "expansion_prompts": [
+      "Summarize what the team is pretending not to know in first-person plural.",
+      "End with a phrase that forces shared ownership."
+    ],
+    "socratic_question": "What happens when we stop performing ignorance?",
+    "governance": {
+      "risks": ["Defensiveness", "Trust fractures"],
+      "cautions": ["Control blast radius", "Pair with repair steps"]
+    },
+    "expected_outputs": {
+      "primary": ["Plain-language diagnosis", "Ownership statement"],
+      "secondary": ["Follow-up repair checklist"]
+    },
+    "acceptance_criteria": [
+      "No euphemisms remain",
+      "Ownership is explicit and shared"
+    ],
+    "examples": {
+      "mini_prompt": "Without sugarcoating, state the core dysfunction in plain language using we/our framing. End with: \"We already knew this.\"",
+      "usage_note": "Use when honesty must reset the narrative."
+    },
+    "metadata": {
+      "version": "2025-10-06",
+      "author": "ETHOS Council",
+      "tags": ["artifact", "clarity", "nanin"]
+    }
+  }
+]
+

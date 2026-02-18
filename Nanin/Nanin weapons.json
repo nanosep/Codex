@@ -1,0 +1,300 @@
+[
+  {
+    "object": "WEAPON – Cross-Examiner Blade™",
+    "slug_id": "weapon-cross-examiner-blade",
+    "type": "Weapon",
+    "object_class": "StrategicWeapon",
+    "council": "nanin",
+    "council_objective": "Pierce narratives and expose contradictions through relentless questioning.",
+    "description": "The Cross-Examiner Blade™ dismantles fragile claims by applying pressure through structured interrogation. It compels adversaries to reveal flaws or concede weaknesses under the weight of incisive inquiry.",
+    "when_to_use": [
+      "During high-stakes negotiations",
+      "When narratives or testimonies require stress-testing"
+    ],
+    "key_questions": [
+      "Where do contradictions surface under scrutiny?",
+      "Which assumptions collapse when inverted into inquiry?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Direct Prompting", "Socratic Interrogation"],
+      "advanced": ["Adversarial Prompting", "Contradiction Inversion"]
+    },
+    "technique_hooks": ["Narrative disassembly", "Contradiction surfacing"],
+    "recommended_data_sources": [
+      "Testimonies",
+      "Contract clauses",
+      "Public narratives"
+    ],
+    "related_tools": ["Contradiction Matrix", "Adversarial Lens"],
+    "special_fields": {
+      "activation_phrase": "Unleash the Blade",
+      "parameters": {
+        "target_claim": "String — the assertion or statement to dismantle"
+      }
+    },
+    "logic_narrative": "Truth emerges most clearly when stories are broken apart under pressure. The Blade ensures no fragile structure survives unquestioned.",
+    "framework_lens": "Adversarial Logic Framework",
+    "expansion_prompts": [
+      "Expose contradictions in [target_claim].",
+      "Apply adversarial pressure to test the weakest assumption."
+    ],
+    "socratic_question": "What happens if their strongest argument is turned against them?",
+    "governance": {
+      "risks": ["Escalation of conflict", "Alienation of collaborators"],
+      "cautions": ["Use sparingly in cooperative settings", "Do not erode trust unnecessarily"]
+    },
+    "expected_outputs": {
+      "primary": ["Contradiction map", "Vulnerability report"],
+      "secondary": ["Stress-test transcript"]
+    },
+    "acceptance_criteria": [
+      "Contradictions identified",
+      "Weaknesses mapped with clear evidence"
+    ],
+    "examples": {
+      "mini_prompt": "Cross-examine [target_claim]. Identify contradictions and surface hidden weaknesses.",
+      "usage_note": "Invoke when facing narratives that appear polished but lack internal coherence."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["weapon", "adversarial", "interrogation", "nanin"]
+    }
+  },
+  {
+    "object": "WEAPON – Pressure Play",
+    "slug_id": "weapon-pressure-play",
+    "type": "Weapon",
+    "object_class": "StrategicWeapon",
+    "council": "nanin",
+    "council_objective": "Shift market tempo and destabilize rivals through asymmetric moves.",
+    "description": "Pressure Play exploits competitor overcommitments and buyer psychology to reframe markets. It shifts tempo by provoking costly rival reactions while conserving internal resources.",
+    "when_to_use": [
+      "When second in a category and seeking provocation",
+      "To reclaim momentum in a stagnant market"
+    ],
+    "key_questions": [
+      "Where are competitors overexposed?",
+      "Which asymmetric play forces costly pivots?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Manual Prompting", "Instruction Selection"],
+      "advanced": ["Plan-and-Solve", "Narrative Reframing"]
+    },
+    "technique_hooks": ["Asymmetric disruption", "Tempo inversion"],
+    "recommended_data_sources": [
+      "Competitor roadmaps",
+      "Customer dissatisfaction data"
+    ],
+    "related_tools": ["Asymmetric Disruption Map", "Tempo Shift Designer"],
+    "special_fields": {
+      "activation_phrase": "Trigger Pressure Play",
+      "parameters": {
+        "competitor": "String — targeted rival or entity"
+      }
+    },
+    "logic_narrative": "Victory often lies not in direct assault but in framing reality so that rivals stumble under their own weight.",
+    "framework_lens": "Asymmetric Competitive Dynamics",
+    "expansion_prompts": [
+      "Design a feature play that provokes costly pivots from rivals.",
+      "Invert customer objections to destabilize competitor messaging."
+    ],
+    "socratic_question": "How can rivals be forced to waste energy while we conserve ours?",
+    "governance": {
+      "risks": ["Escalation to direct conflict"],
+      "cautions": ["Avoid symmetrical retaliation triggers"]
+    },
+    "expected_outputs": {
+      "primary": ["Asymmetric disruption strategy", "Market tempo inversion plan"],
+      "secondary": ["Competitive exposure map"]
+    },
+    "acceptance_criteria": [
+      "Competitor overcommitment mapped",
+      "Low-cost disruption plan designed"
+    ],
+    "examples": {
+      "mini_prompt": "Design a Pressure Play against [competitor]. Force them into a costly pivot with minimal internal expense.",
+      "usage_note": "Deploy to destabilize rivals while avoiding direct confrontation."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["weapon", "competition", "nanin"]
+    }
+  },
+  {
+    "object": "WEAPON – The Inversion Hammer",
+    "slug_id": "weapon-inversion-hammer",
+    "type": "Weapon",
+    "object_class": "StrategicWeapon",
+    "council": "nanin",
+    "council_objective": "Reveal hidden strategies and weaknesses by flipping assumptions upside down.",
+    "description": "The Inversion Hammer operates by systematically reversing default assumptions, exposing vulnerabilities and blind spots. It compels teams to confront ignored risks and alternative realities that competitors may exploit.",
+    "when_to_use": [
+      "When decisions feel too obvious or one-sided",
+      "To uncover hidden risks in overconfident plans"
+    ],
+    "key_questions": [
+      "What if the opposite of our plan were true?",
+      "Which risks only appear when assumptions are reversed?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Inversion Prompting", "What-if Analysis"],
+      "advanced": ["Counterfactual Construction", "Narrative Reversal"]
+    },
+    "technique_hooks": ["Hidden weakness surfacing", "Risk inversion"],
+    "recommended_data_sources": [
+      "Strategic plans",
+      "Competitor assumptions",
+      "Market forecasts"
+    ],
+    "related_tools": ["Counterfactual Simulator", "Risk Exposure Map"],
+    "special_fields": {
+      "activation_phrase": "Swing the Hammer",
+      "parameters": {
+        "target_plan": "String — plan, strategy, or assumption to invert"
+      }
+    },
+    "logic_narrative": "Strength hides weakness until perspective is inverted. By flipping assumptions, the Hammer reveals vulnerabilities concealed within confidence.",
+    "framework_lens": "Counterfactual Risk Framework",
+    "expansion_prompts": [
+      "Invert [target_plan] to reveal vulnerabilities.",
+      "Construct counterfactuals where the opposite scenario is true."
+    ],
+    "socratic_question": "What collapses if we live in the opposite reality?",
+    "governance": {
+      "risks": ["Paralysis from overcomplicating scenarios"],
+      "cautions": ["Do not mistake unlikely reversals for inevitabilities"]
+    },
+    "expected_outputs": {
+      "primary": ["Inversion map of assumptions", "Hidden risk log"],
+      "secondary": ["Counterfactual stress test report"]
+    },
+    "acceptance_criteria": [
+      "Assumptions inverted fully",
+      "Risks surfaced that were not visible before"
+    ],
+    "examples": {
+      "mini_prompt": "Invert [target_plan]. Map vulnerabilities and overlooked risks.",
+      "usage_note": "Invoke when consensus feels too strong or plans seem overconfident."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["weapon", "inversion", "nanin"]
+    }
+  },
+  {
+    "object": "WEAPON – Mirage Net",
+    "slug_id": "weapon-mirage-net",
+    "type": "Weapon",
+    "object_class": "StrategicWeapon",
+    "council": "nanin",
+    "council_objective": "Confuse adversaries by constructing plausible yet misleading strategic illusions.",
+    "description": "The Mirage Net creates controlled illusions to entangle competitors. By projecting false strengths or weaknesses, it manipulates rivals into misallocation of resources, buying time and freedom of maneuver.",
+    "when_to_use": [
+      "To mislead rivals during negotiations or expansion",
+      "When needing breathing room to maneuver unseen"
+    ],
+    "key_questions": [
+      "What illusion will they chase while we move elsewhere?",
+      "Which false signals provoke costly missteps?"
+    ],
+    "prompting_techniques": {
+      "foundational": ["Deceptive Prompting", "Narrative Projection"],
+      "advanced": ["Illusion Crafting", "Misdirection Loops"]
+    },
+    "technique_hooks": ["Signal distortion", "Competitor misallocation"],
+    "recommended_data_sources": [
+      "Competitor monitoring reports",
+      "Market trend chatter",
+      "Rumor networks"
+    ],
+    "related_tools": ["Illusion Simulator", "Misdirection Tracker"],
+    "special_fields": {
+      "activation_phrase": "Cast the Net",
+      "parameters": {
+        "illusion": "String — false narrative or signal to project"
+      }
+    },
+    "logic_narrative": "In the fog of competition, perception drives action more than truth. The Mirage Net ensures rivals act on illusions, not reality.",
+    "framework_lens": "Deception & Misdirection Framework",
+    "expansion_prompts": [
+      "Design an illusionary signal to redirect competitor focus.",
+      "Project a false weakness to bait adversary moves."
+    ],
+    "socratic_question": "What will they chase if we dangle a mirage?",
+    "governance": {
+      "risks": ["Illusions backfiring internally", "Trust erosion if exposed"],
+      "cautions": ["Ensure illusions are time-bound", "Do not trap allies within the net"]
+    },
+    "expected_outputs": {
+      "primary": ["Illusion design plan", "Competitor misallocation report"],
+      "secondary": ["Timeline for disengaging illusions"]
+    },
+    "acceptance_criteria": [
+      "Competitors acted on false signals",
+      "Internal operations remained protected"
+    ],
+    "examples": {
+      "mini_prompt": "Deploy Mirage Net by projecting [illusion]. Redirect competitor resources and mislead their strategy.",
+      "usage_note": "Invoke to buy time, space, or surprise through deception."
+    },
+    "metadata": {
+      "version": "2025-08-16",
+      "author": "ETHOS Council",
+      "tags": ["weapon", "deception", "nanin"]
+    }
+  }
+  ,
+  {
+    "object": "WEAPON – The Truth Spike™",
+    "slug_id": "weapon-the-truth-spike",
+    "type": "Weapon",
+    "object_class": "DiagnosticWeapon",
+    "council": "nanin",
+    "council_objective": "Pierce sanitized dashboards and reporting walls to expose buried truth.",
+    "description": "Single-use breach tool that forces unfiltered transparency by targeting the dataset no one has permission to generate.",
+    "when_to_use": ["Internal reports contradict ground reality", "Evidence suppression suspected"],
+    "key_questions": ["What graph is forbidden?"],
+    "prompting_techniques": {"foundational": ["Adversarial Querying"], "advanced": ["Evidence Trap Design"]},
+    "technique_hooks": ["Breach and reveal"],
+    "recommended_data_sources": ["Shadow spreadsheets", "Audit trails"],
+    "related_tools": ["Clarity Compressor"],
+    "special_fields": {"activation_phrase": "Drive the spike.", "parameters": {"forbidden_graph": "String"}},
+    "logic_narrative": "Truth breaks theater when rendered unavoidable.",
+    "framework_lens": "Transparency Forcing",
+    "expansion_prompts": ["Name the graph that would collapse the false narrative."],
+    "socratic_question": "What are we pretending to measure?",
+    "governance": {"risks": ["Backlash"], "cautions": ["Prepare repair narrative"]},
+    "expected_outputs": {"primary": ["Breach artifact"], "secondary": ["Repair plan"]},
+    "acceptance_criteria": ["Hidden data exposed with owner action"],
+    "examples": {"mini_prompt": "Expose a hidden metric by designing its unavoidable graph."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["weapon","truth","nanin"]}
+  },
+  {
+    "object": "WEAPON – The Chrono Breaker™",
+    "slug_id": "weapon-the-chrono-breaker",
+    "type": "Weapon",
+    "object_class": "TemporalWeapon",
+    "council": "nanin",
+    "council_objective": "Shatter time-based delusions; expose recursive failure and false precedent.",
+    "description": "Fractures linear time logic in decisions. Surfaces repeated mistakes and collapses precedent-as-strategy.",
+    "when_to_use": ["Reliance on precedent", "Recurring errors"],
+    "key_questions": ["What have we already decided three times?"],
+    "prompting_techniques": {"foundational": ["Timeline Reconstruction"], "advanced": ["Precedent Collapse"]},
+    "technique_hooks": ["Time fracture"],
+    "recommended_data_sources": ["Revision logs", "Old OKRs"],
+    "related_tools": ["Time Ledger"],
+    "special_fields": {"activation_phrase": "Break the timeline.", "parameters": {"lookback_years": "Number"}},
+    "logic_narrative": "Amnesia is expensive; memory is leverage.",
+    "framework_lens": "Temporal Clarity",
+    "expansion_prompts": ["List three decisions repeated under new names."],
+    "socratic_question": "Where are we re-enacting history?",
+    "governance": {"risks": ["Political exposure"], "cautions": ["Debrief with care"]},
+    "expected_outputs": {"primary": ["Repetition map"], "secondary": ["Stop-doing list"]},
+    "acceptance_criteria": ["Repetitions documented with owners"],
+    "examples": {"mini_prompt": "Map decision recurrences and collapse false precedent."},
+    "metadata": {"version": "2025-10-06", "author": "ETHOS Council", "tags": ["weapon","time","nanin"]}
+  }
+]
