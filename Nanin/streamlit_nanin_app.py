@@ -8,10 +8,11 @@ from nanin_runner import DEFAULT_CATEGORY_ORDER, NaninRunner
 
 
 st.set_page_config(page_title="NANIN Prompt Runner", page_icon="🧭", layout="wide")
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def load_artifacts() -> List[Dict[str, str]]:
-    path = Path("Nanin Artifacts.json")
+    path = BASE_DIR / "Nanin Artifacts.json"
     if not path.exists():
         return []
     try:
@@ -118,13 +119,13 @@ def main() -> None:
 
         try:
             runner = NaninRunner(
-                data_dir=Path("."),
+                data_dir=BASE_DIR,
                 ethos_path=None,
                 model=model,
                 embedding_model="text-embedding-3-large",
                 seed=seed,
                 use_embeddings=not no_embeddings,
-                cache_path=Path(".nanin_cache/embeddings.json"),
+                cache_path=BASE_DIR / ".nanin_cache" / "embeddings.json",
                 include_why=include_why,
                 api_key=api_key,
                 fast_mode=fast_mode,
